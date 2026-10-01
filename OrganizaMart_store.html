@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OrganizaMart | Smart Solutions for a Better Home</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f5f7f4;color:#173b2a}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 7%;background:#0d3b29;color:white;position:sticky;top:0;z-index:10}
+.logo{font-size:25px;font-weight:800}.logo span{color:#8bd35c}
+nav a{color:white;text-decoration:none;margin-left:22px}
+.hero{padding:70px 7%;display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center;background:linear-gradient(135deg,#eaf5e6,#fff)}
+.hero h1{font-size:48px;line-height:1.05;margin-bottom:18px}
+.hero p{font-size:18px;color:#52665a;line-height:1.6;margin-bottom:25px}
+.btn{display:inline-block;padding:14px 24px;border-radius:30px;background:#1d7a45;color:white;text-decoration:none;font-weight:bold;border:0;cursor:pointer}
+.product-img{width:100%;border-radius:24px;box-shadow:0 15px 40px #0002}
+section{padding:65px 7%}
+.title{text-align:center;font-size:32px;margin-bottom:35px}
+.card{max-width:900px;margin:auto;background:white;border-radius:25px;padding:28px;display:grid;grid-template-columns:1fr 1fr;gap:35px;box-shadow:0 10px 35px #0001}
+.card h2{font-size:32px;margin:15px 0}.price{font-size:30px;font-weight:bold;color:#1d7a45;margin:15px 0}
+.features{list-style:none;line-height:2;font-size:17px;margin:18px 0}
+.order{background:#0d3b29;color:white;text-align:center}.order p{margin:12px 0 25px;color:#dce9e1}
+footer{text-align:center;padding:25px;background:#08291d;color:#dce9e1}
+@media(max-width:750px){.hero,.card{grid-template-columns:1fr}.hero h1{font-size:38px}nav a{margin-left:10px;font-size:14px}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Organiza<span>Mart</span></div>
+  <div><a href="#product">Product</a><a href="#order">Order</a></div>
+</nav>
+
+<header class="hero">
+  <div>
+    <h1>Turn Messy Drawers Into Organized Spaces.</h1>
+    <p>Keep clothes, accessories, cosmetics and small items neatly separated with our adjustable 4-piece drawer organizer.</p>
+    <a class="btn" href="#order">Order Now — Rs. 699</a>
+  </div>
+  <img class="product-img" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1000&q=80" alt="Organized home">
+</header>
+
+<section id="product">
+  <h2 class="title">4-Piece Adjustable Drawer Organizer</h2>
+  <div class="card">
+    <div>
+      <img class="product-img" src="https://images.unsplash.com/photo-1558997519-83ea9252edf8?auto=format&fit=crop&w=900&q=80" alt="Home organization">
+    </div>
+    <div>
+      <h2>Organize It. Find It. Love It.</h2>
+      <p>Adjust the dividers to create useful sections inside your drawer.</p>
+      <div class="price">Rs. 699</div>
+      <ul class="features">
+        <li>✓ 4-piece set</li>
+        <li>✓ Adjustable design</li>
+        <li>✓ Space-saving organization</li>
+        <li>✓ Multi-purpose home use</li>
+      </ul>
+      <a class="btn" href="#order">Buy Now</a>
+    </div>
+  </div>
+</section>
+
+<section class="order" id="order">
+  <h2 class="title">Ready to Organize?</h2>
+  <p>For orders, replace the WhatsApp number below with your business number.</p>
+  <a class="btn" href="https://wa.me/92XXXXXXXXXX?text=Assalam%20o%20Alaikum%2C%20I%20want%20to%20order%20the%204-piece%20drawer%20organizer." target="_blank">Order on WhatsApp</a>
+</section>
+
+<footer>© 2026 OrganizaMart — Smart Solutions for a Better Home</footer>
+</body>
+</html>
